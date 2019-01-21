@@ -2,6 +2,7 @@
 
 # Copies the script that detects your mouse ID and sets the xinput parameters
 # inside your autostart folder
+mkdir -p ~/.config/autostart/
 cp ./util/trackball_scroll.sh ~/.config/autostart/
 
 # Writes the autostart ("Startup application") configuration file that launches
