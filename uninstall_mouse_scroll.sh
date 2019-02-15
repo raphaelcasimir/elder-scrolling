@@ -1,5 +1,7 @@
 #/bin/bash
 
+xinput set-prop $id "libinput Scroll Method Enabled" 0, 0, 0
+
 rm /home/$USER/.config/autostart/trackball_scroll.sh
 rm /home/$USER/.config/autostart/trackball_mouse_scroll.desktop
 

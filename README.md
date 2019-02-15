@@ -4,4 +4,14 @@
 Scroll using your mouse movements instead of the scrollwheel. By default scroll while holding right click (mouse button 3).
 Just install by running `install_mouse_scroll.sh`  **without sudo**.
 
-For Logitech M570 trackball mouse. You can try to modify it for another model or make it generic.
+If you want to temporarly disable this scrolling mechanism, run `disable.sh`, `enable.sh` to re-enable it.
+
+You can make an alias to access these scripts easily from anywhere.
+Just add:
+```bash
+alias scroll-enable='<path-of-elder-scrolling-folder>/enable.sh'
+alias scroll-disable='<path-of-elder-scrolling-folder>/disable.sh'
+```
+at the end of your `~/.bashrc` / shell configuration file.
+
+Intended Logitech M570 trackball mouse. You can easily modify it for another model.
