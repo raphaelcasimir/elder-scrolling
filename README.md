@@ -18,3 +18,5 @@ alias scroll-disable='<path-of-elder-scrolling-folder>/disable.sh'
 at the end of your `~/.bashrc` / shell configuration file.
 
 Should work with any mouse model.
+
+*Original idea by [Jeet Sukumaran](https://jeetblogs.org/) and [Charles Grassin](http://charleslabs.fr/en/index)*
