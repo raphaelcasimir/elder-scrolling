@@ -2,6 +2,9 @@
 *That's how the elder scrolls*
 
 Scroll using your mouse movements instead of the scrollwheel. By default scroll while holding right click (mouse button 3).
+
+![elder-scrolling demo](https://i.imgur.com/ngIbExy.gif)
+
 Just install by running `install_mouse_scroll.sh`  **without sudo**.
 
 If you want to temporarly disable this scrolling mechanism, run `disable.sh`, `enable.sh` to re-enable it.
