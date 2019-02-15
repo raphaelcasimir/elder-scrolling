@@ -1,5 +1,8 @@
 #/bin/bash
 
+# Choose your mouse model
+sh ./change_mouse_model.sh
+
 # Copies the script that detects your mouse ID and sets the xinput parameters
 # inside your autostart folder
 mkdir -p ~/.config/autostart/

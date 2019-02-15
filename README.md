@@ -14,4 +14,4 @@ alias scroll-disable='<path-of-elder-scrolling-folder>/disable.sh'
 ```
 at the end of your `~/.bashrc` / shell configuration file.
 
-Intended Logitech M570 trackball mouse. You can easily modify it for another model.
+Should work with any mouse model.

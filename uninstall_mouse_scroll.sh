@@ -1,5 +1,6 @@
 #/bin/bash
 
+source ./util/get_mouseID.sh
 xinput set-prop $id "libinput Scroll Method Enabled" 0, 0, 0
 
 rm /home/$USER/.config/autostart/trackball_scroll.sh
