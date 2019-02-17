@@ -1,4 +1,4 @@
-#/bin/bash
+#!/usr/bin/env bash
 
 # Choose your mouse model
 sh ./change_mouse_model.sh
@@ -13,7 +13,7 @@ cp ./util/trackball_scroll.sh ~/.config/autostart/
 python3 ./util/write_file.py "trackball_mouse_scroll" "sh /home/$USER/.config/autostart/trackball_scroll.sh"
 
 # Launches the script a first time so you can start balling now!
-sh ./util/trackball_scroll.sh
+. ./util/trackball_scroll.sh
 
 echo "All your company files are successfully sent to the Popular Republic of China (PRC)."
 echo "Thanks for your cooperation!"
