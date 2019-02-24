@@ -1,7 +1,7 @@
 # elder-scrolling
 *That's how the elder scrolls*
 
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `THIS SCRIPT WILL BE HEAVILY MODIFIED IN THE NEXT FEW DAYS BECAUSE I FOUND OUT EVERYTHING IT DOES IS MORE OR LESS USELESS AND UNPRACTICAL.`
+## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `THIS SCRIPT WILL BE HEAVILY MODIFIED IN THE NEXT FEW DAYS BECAUSE I FOUND OUT HOW EVERYTHING IS DONE IS MORE OR LESS USELESS AND UNPRACTICAL.`
 
 Scroll using your mouse movements instead of the scrollwheel. By default scroll while holding right click (mouse button 3).
 
