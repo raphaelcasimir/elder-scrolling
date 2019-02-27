@@ -1,8 +1,6 @@
 # elder-scrolling
 *That's how the elder scrolls*
 
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `THIS SCRIPT WILL BE HEAVILY MODIFIED IN THE NEXT FEW DAYS BECAUSE I FOUND OUT HOW EVERYTHING IS DONE IS MORE OR LESS USELESS AND UNPRACTICAL.`
-
 Scroll using your mouse movements instead of the scrollwheel. By default scroll while holding right click (mouse button 3).
 
 ![elder-scrolling demo](https://i.imgur.com/ngIbExy.gif)
@@ -22,3 +20,5 @@ at the end of your `~/.bashrc` / shell configuration file.
 Should work with any mouse model.
 
 *Original idea by [Jeet Sukumaran](https://jeetblogs.org/) and [Charles Grassin](http://charleslabs.fr/en/index)*
+
+NOTE: There is a better way to make this scripts using directly the mouse model name for xinput but I discovered that too late, everything already worked more or less.
