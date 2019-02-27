@@ -4,7 +4,7 @@ id=$(xinput list | awk \
 	FS="[=\[]";
 	act=1; \
 } \
-/G502/ { \
+/Ergo/ { \
 	if (act == 1) { \
 		print $2; \
 		act=0; \
