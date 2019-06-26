@@ -1,7 +1,7 @@
 # elder-scrolling
 *That's how the elder scrolls*
 
-**Works in Gnome environments, never tested elsewhere.**
+**Last version works in Gnome environments, never tested elsewhere. `quick_toggle.sh` should work everywhere.**
 
 Scroll using your mouse movements instead of the scrollwheel. By default scroll while holding right click (mouse button 3).
 
