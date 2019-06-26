@@ -1,24 +1,18 @@
 # elder-scrolling
 *That's how the elder scrolls*
 
+**Works in Gnome environments, never tested elsewhere.**
+
 Scroll using your mouse movements instead of the scrollwheel. By default scroll while holding right click (mouse button 3).
 
 ![elder-scrolling demo](https://i.imgur.com/ngIbExy.gif)
 
-Just install by running `install_mouse_scroll.sh`  **without sudo**.
+Just install by running `install_mouse_scroll.sh` .
 
-If you want to temporarly disable this scrolling mechanism, run `disable.sh`, `enable.sh` to re-enable it.
-
-You can make an alias to access these scripts easily from anywhere.
-Just add:
-```bash
-alias scroll-enable='<path-of-elder-scrolling-folder>/enable.sh'
-alias scroll-disable='<path-of-elder-scrolling-folder>/disable.sh'
-```
-at the end of your `~/.bashrc` / shell configuration file.
+* It will enable the ES scrolling method by default at boot-up.
+* If you want **to toggle the Elder-Scrolling mechanism** hit <kbd>Alt</kbd> + <kbd>E</kbd> .
+* **If you do not want to install** you can run `./quick_toggle.sh` to select and enable a device quickly. This script is standalone.
 
 Should work with any mouse model.
 
-*Original idea by [Jeet Sukumaran](https://jeetblogs.org/) and [Charles Grassin](http://charleslabs.fr/en/index)*
-
-NOTE: There is a better way to make this scripts using directly the mouse model name for xinput but I discovered that too late, everything already worked more or less.
+*Original idea by [Jeet Sukumaran](https://jeetblogs.org/) and [Charles Grassin](http://charleslabs.fr/en/index)... And probably you since you searched for it.*

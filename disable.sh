@@ -2,5 +2,5 @@
 
 DIR="$( cd "$( dirname "$0" )" && pwd )"
 source ${DIR}/util/get_mouseID.sh
-
-xinput set-prop $id "libinput Scroll Method Enabled" 0, 0, 0
+echo " elder scroll disabled."
+xinput set-prop "$id" "libinput Scroll Method Enabled" 0, 0, 0

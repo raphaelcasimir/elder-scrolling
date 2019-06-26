@@ -1,7 +1,31 @@
 #!/usr/bin/env bash
 DIR="$( cd "$( dirname "$0" )" && pwd )"
-. ${DIR}/util/get_mouseID.sh 2> /dev/null
-. ${DIR}/get_mouseID.sh 2>> ~/test.log
-. /home/raphael/.config/autostart/get_mouseID.sh 2>> /home/raphael/test.log
 
-xinput set-prop $id "libinput Scroll Method Enabled" 0, 0, 1 && xinput set-prop $id "libinput Button Scrolling Button" 3
+function getID(){
+	id=$(. ${DIR}/util/get_mouseID.sh 2> /dev/null)
+	if [ -z "$id" ]
+		then
+		id=$(. ${DIR}/get_mouseID.sh 2> /dev/null)
+	fi
+	if [ -z "$id" ]
+		then
+		id=$(. /home/USR/.config/autostart/get_mouseID.sh 2> /dev/null) # U S R here
+	fi
+	printf "$id"
+}
+
+long=0
+until [ "$res" == "" ] && [ $long -gt 0 ]; do
+	if [ $long -lt 120 ]
+	then
+		sleep 1
+		long=$((long+1))
+	else
+		sleep 20
+	fi
+
+	res="$(xinput set-prop "$(getID)" "libinput Scroll Method Enabled" 0, 0, 1 2>&1)"
+	xinput set-prop "$(getID)" "libinput Button Scrolling Button" 3
+	echo "Device: $(getID)."
+done
+
