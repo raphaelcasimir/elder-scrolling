@@ -18,4 +18,4 @@ if not os.path.exists(file):
             l = l+command if l == "Exec=" else l
             out.write(l+"\n")
 else:
-    print("file exists, choose another name")
+    print("Startup file arlready exists, nothing to do.")
