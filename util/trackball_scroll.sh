@@ -9,7 +9,7 @@ function getID(){
 	fi
 	if [ -z "$id" ]
 		then
-		id=$(. /home/USR/.config/autostart/get_mouseID.sh 2> /dev/null) # U S R here
+		id=$(. /home/sagan/.config/autostart/get_mouseID.sh 2> /dev/null) # U S R here
 	fi
 	printf "$id"
 }

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-id=$(. /home/USR/.config/autostart/get_mouseID.sh 2> /dev/null) # U S R here
+id=$(. /home/sagan/.config/autostart/get_mouseID.sh 2> /dev/null) # U S R here
 
 # Check in what state the device is (es enabled or not)
 ena=$(xinput --list-props "$id" | grep "libinput Scroll Method Enabled (" | cut -d, -f 3)

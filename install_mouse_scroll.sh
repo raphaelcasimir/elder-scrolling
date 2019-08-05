@@ -28,8 +28,5 @@ cp ./util/get_mouseID.sh ~/.config/autostart/
 
 python3 ./util/add_custom_keyboard_shortcut.py 'Toggle Elder Scrolling' "bash /home/$USER/.config/autostart/toggle_es.sh" '<Alt>e'
 
-# Launches the script a first time so you can start balling now!
-./util/trackball_scroll.sh
-
 
 echo "Thanks for your cooperation!"
