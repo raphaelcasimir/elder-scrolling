@@ -11,8 +11,8 @@ echo ''
 # Ask the user to choose a device
 while [ -z $id ]; do
 	read -p "Enter mouse name to grep: " uname
-	id=$(xinput list | grep -i $uname | head -n1 | cut -d'=' -f2 | cut -f1)
-	devName=$(xinput list --name-only | grep -i $uname | head -n1)
+	id=$(xinput list | grep -i "$uname" | head -n1 | cut -d'=' -f2 | cut -f1)
+	devName=$(xinput list --name-only | grep -i "$uname" | head -n1)
 	if [ -z "$id" ]; then echo "	No $uname device found. Try again."; fi
 done
 
